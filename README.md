@@ -5,11 +5,21 @@
 - llm_translated_md：使用[gpt_acdamic](https://github.com/binary-husky/gpt_academic)翻译得到的原markdown输出文件
 - finished_md：经过人工校对和审核后的markdown文件。如果你参与翻译，请将翻译好的文件放入该文件夹。
 
-**重要**：关于文档中的图片
+### 重要：关于文档中的图片
 
-文档图片资源过多，不上传到仓库内。请获取图片资源"media.zip"后，将压缩包解压到含有markdown文件的文件夹中，即可预览markdown文件中的图片。**请不要修改markdown文件中任何的图片路径和参数！**本仓库已经忽略了任何名为media的文件夹，校对完成后无需删除图片文件夹即可直接提交pull request。
+文档图片资源均保存在`media.zip`中，将压缩包解压到含有markdown文件的文件夹中，即可预览markdown文件中的图片。**除非你要插入额外的图片，请不要修改markdown文件中任何的图片路径和参数**
+
+- 如果你使用Typora编辑markdown，在保存文档之前请按照下图所示修改偏好设置：
+
+  ![pic](./pic.png)
+
+> 如果你需要插入外部图片，请使用相对路径。将上图中的“插入图片时……”选项修改为：“复制到指定路径”，填入`./media/media`
+
+本仓库已经忽略了任何名为media的文件夹，校对完成后无需删除图片文件夹即可直接提交pull request。
 
 若你想要参与翻译，请参考以下指南：
+
+### 翻译Tips
 
 > 你需要检查：
 >
