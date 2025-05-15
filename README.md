@@ -1,3 +1,9 @@
+# 生成文档（PDF）
+
+- 克隆仓库，并将`media.zip`解压到`finished_md`文件夹中
+- 准备一个python环境，并用`pip install -r requirements.txt`安装依赖
+- 运行`pdf_generate.py`脚本，文档会生成到仓库根目录下
+
 # 贡献须知
 目录结构，所有的文档均按原文章节划分：
 
